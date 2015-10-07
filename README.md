@@ -6,7 +6,7 @@ ESTO ES DE PRUEBA, no es mio
 
 ----
 ## what is Markdown?
-see [PORTAFOLIO](http://juanvargas.netti.net)
+see [PORTAFOLIO](http://juanvargas.netii.net)
 
 > Markdown is a lightweight markup language, originally created by John Gruber and Aaron Swartz allowing people "to write using an easy-to-read, easy-to-write plain text format, then convert it to structurally valid XHTML (or HTML)".
 
