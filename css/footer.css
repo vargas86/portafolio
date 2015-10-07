@@ -1,40 +1,154 @@
 /* 
-footer
+FOOTER
 */
 
-.f1 {
-	width: 40%;
-	max-width: 400px;
-	height: 100%;
-	min-height: 300px;
-	background-color: black;
-	float: left; 
-}
-
-@media  only screen and (max-width: 400px) and (min-width: 380px) {
-.f1 {
+/* -------------------------------- 
+footer
+-------------------------------- */
+.footer {
 	width: 100%;
-	max-width: 400px;
+	background-color: #000;
+	float: left;
 	height: 100%;
-	min-height: 300px;
-	background-color: brown;
-	float: left; 
-}	
-
-.f2 {
-	width: 40%;
-	max-width: 400px;
-	height: 100%;
-	min-height: 300px;		
-	background-color: red; 
-	float: left; 	
+	min-height: 200px;
+	max-height: 700px;
+	margin-top: 20px;
 }
 
-.f3 {
-	width: 20%;
-	max-width: 200px;
-	height: 100%;
-	min-height: 300px;		
-	background-color: orange; 
-	float: left; 	
+.f_con {
+	max-width: 1200px;
+	display: block;
+	margin: 0px auto;
+	background: #000 none repeat scroll 0% 0%;
+	height: auto;
+	min-height: 150px;
+}
+
+.f_col1 {
+	width: 30%;
+	background-color: #000;
+	float: left;
+	min-width: 320px;
+	padding: 15px;
+}
+
+.f_col2 {
+	width: 30%;
+	background-color: #000;
+	float: left;
+	min-width: 320px;	
+	padding: 15px;
+	min-height: 210px;
+
+}
+
+.f_col3 {
+	width: 25%;
+	background-color: #000;	
+	float: left;
+	min-width: 250px;	
+	padding: 15px;	
+
+}
+
+#f_s1 {
+	font-size: 18px;
+	font-family: "Open Sans Condensed",sans-serif;	
+	color:yellow;
+	border-bottom: thin dotted white; 
+	line-height: 45px;
+	width: 100%;
+}
+
+#f_s2 {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 37px;
+	font-family: 'Patua One', cursive;
+	border-bottom: thin solid white;
+	border-top: thin solid white;
+	line-height: 45px;
+}
+
+#f_s3 {
+	color: red;
+	font-size: 18px;
+	font-family: "Open Sans Condensed",sans-serif;
+	line-height: 37px;
+	border-top: thin solid white;
+	border-bottom: thin dotted white; 	
+}
+
+#f_s4 {
+	color: white;
+	font-size: 32px;
+	font-family: "Open Sans Condensed",sans-serif;
+	line-height: 37px;
+	font-family: 'Amatic SC', cursive;	
+}
+
+#f_s5 {
+	color: white;
+	font-size: 20px;
+	font-family: "Open Sans Condensed",sans-serif;
+	border-bottom: thin dotted white; 
+	line-height: 45px;	
+}
+
+#f_s6 {
+	color: white;
+	font-size: 22px;
+	font-family: "Open Sans Condensed",sans-serif;
+	font-family: 'Patua One', cursive;
+	line-height:30px;	
+}
+
+.f_s7 {
+	border-bottom: thin dotted white;
+	border-top: thin dotted white;	
+	font-size: 16px;
+	font-family: "Open Sans Condensed",sans-serif;
+	color: #01DFD7;
+	margin-top: 15px;
+	padding: 5px 5px 5px 15px;
+	width: 60%;
+}
+
+.f_s8 {
+	border-bottom: thin dotted white;
+	border-top: thin dotted white;	
+	font-size: 16px;
+	font-family: "Open Sans Condensed",sans-serif;
+	color: #A9BCF5;	
+	margin-top: 5px;
+	padding: 5px 5px 5px 15px;
+	width: 60%;
+}
+
+.f_s9 {
+	border-bottom: thin dotted white;
+	border-top: thin dotted white;	
+	font-size: 16px;
+	font-family: "Open Sans Condensed",sans-serif;
+	color: #F6D8CE;	
+	margin-top: 5px;
+	padding: 5px 5px 5px 15px;
+	width: 60%;
+}
+
+#titulo_areas {
+	border-bottom: dotted thin rgba(250,250,250,0.3);
+	padding: 0px 0px 0px 5px;
+	margin: 0 0 0 15px;
+	text-transform: uppercase;
+	color:#DADADA;
+}
+
+#titulo_areas:hover {
+	border-bottom: dotted thin #fff;
+	padding: 0px 0px 0px 5px;
+	margin: 0 0 0 15px;
+	text-transform: uppercase;
+	color:#fff;
+	background-color: rgba(0,0,0,0.7);
 }

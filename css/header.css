@@ -9,40 +9,199 @@ HEADER
 	min-height: 75px;
 	max-height: 95px;
 	float: left;
-	background-color: gray;
-}
-
-.d2 {
-	width: 10%;
-	min-width: 95px;
-	max-width: 100px;
-	height: 100%;
-	min-height:75px;
-	max-height:75px; 
-	float: left;
 	background-color: black;
+	background-image: url(../img/logo-juan.png);
+	background-repeat: no-repeat;	
 }
 
-.d3 {
-	width: 10%;
-	min-width: 95px;
-	max-width: 100px;
-	height: 100%;
-	min-height:75px;
-	max-height:75px; 
-	float: left;
-	background-color: black;
-}
-
-.d4 {
-	width: 15%;
-	max-width: 150px;
-	min-width: 150px;
+@media  only screen and (max-width: 379px) and (min-width: 200px) {
+.d1 {
+	width: 40%;
+	min-width: 320px;
+	max-width: 320px;
 	height: 100%;
 	min-height: 75px;
 	max-height: 95px;
 	float: left;
-	background-color: white;
+	background-color: black;
+	background-image: url(../img/logo-juan.png);
+	background-repeat: no-repeat;	
+	background-size: 70% auto;
+	background-position: 45px 15px;
+	}
 }
 
 
+.d3 {
+	width: 10%;
+	min-width: 75px;
+	max-width: 75px;
+	height: 100%;
+	min-height:75px;
+	max-height:75px; 
+	float: left;
+	background-color: black;
+	background-image: url(../img/b_home.png);
+	background-size: 35%;
+	background-position: center, center;
+	background-repeat: no-repeat;	
+}
+
+@media  only screen and (max-width: 379px) and (min-width: 200px) {
+.d3 {
+	width: 10%;
+	min-width: 60px;
+	max-width: 60px;
+	height: 100%;
+	min-height:60px;
+	max-height:60px; 
+	float: left;
+	background-color: black;
+	background-image: url(../img/b_home.png);
+	background-size: 35%;
+	background-position: center, center;
+	background-repeat: no-repeat;	
+	}
+}
+
+.d3:hover{
+	background-color:#2E2E2E ;
+}
+
+.d2 {
+	width: 10%;
+	min-width: 75px;
+	max-width: 75px;
+	height: 100%;
+	min-height:75px;
+	max-height:75px; 
+	float: left;
+	background-color: black;
+	background-image: url(../img/b_menu.png);
+	background-size: 35%;
+	background-position: center, center;
+	background-repeat: no-repeat;	
+}
+
+@media  only screen and (max-width: 379px) and (min-width: 200px) {
+.d2 {
+	width: 10%;
+	min-width: 75px;
+	max-width: 75px;
+	height: 100%;
+	min-height:75px;
+	max-height:75px; 
+	float: left;
+	background-color: black;
+	background-image: url(../img/b_menu.png);
+	background-size: 35%;
+	background-position: center, center;
+	background-repeat: no-repeat;	
+	}
+}
+
+.d2:hover{
+	background-color:#2E2E2E ;
+}
+
+.d4 {
+	min-width: 75px;
+	max-width: 75px;
+	height: 100%;
+	min-height:75px;
+	max-height:75px; 
+	float: left;
+	background-color: black;
+	background-image: url(../img/b_mail.png);
+	background-size: 35%;
+	background-position: center, center;
+	background-repeat: no-repeat;	
+}
+
+@media  only screen and (max-width: 379px) and (min-width: 200px) {
+.d4 {
+	min-width: 60px;
+	max-width: 60px;
+	height: 100%;
+	min-height:60px;
+	max-height:60px; 
+	float: left;
+	background-color: black;
+	background-image: url(../img/b_mail.png);
+	background-size: 35%;
+	background-position: center, center;
+	background-repeat: no-repeat;	
+	}
+}
+
+.d4:hover{
+	background-color:#2E2E2E ;
+}
+
+.d5 {
+	min-width: 75px;
+	max-width: 75px;
+	height: 100%;
+	min-height:75px;
+	max-height:75px; 
+	float: left;
+	background-color: black;
+	background-image: url(../img/b_download.png);
+	background-size: 35%;
+	background-position: center, center;
+	background-repeat: no-repeat;	
+}
+
+@media  only screen and (max-width: 379px) and (min-width: 200px) {
+.d5 {
+	min-width: 60px;
+	max-width: 60px;
+	height: 100%;
+	min-height:60px;
+	max-height:60px; 
+	float: left;
+	background-color: black;
+	background-image: url(../img/b_download.png);
+	background-size: 35%;
+	background-position: center, center;
+	background-repeat: no-repeat;	
+	}
+}
+
+.d5:hover{
+	background-color:#2E2E2E ;
+}
+
+.d6 {
+	min-width: 75px;
+	max-width: 75px;
+	height: 100%;
+	min-height:75px;
+	max-height:75px; 
+	float: left;
+	background-color: black;
+	background-image: url(../img/b_linkedin.png);
+	background-size: 35%;
+	background-position: center, center;
+	background-repeat: no-repeat;	
+}
+
+@media  only screen and (max-width: 379px) and (min-width: 200px) {
+.d6 {
+	min-width: 60px;
+	max-width: 60px;
+	height: 100%;
+	min-height:60px;
+	max-height:60px; 
+	float: left;
+	background-color: black;
+	background-image: url(../img/b_linkedin.png);
+	background-size: 35%;
+	background-position: center, center;
+	background-repeat: no-repeat;	
+	}
+}
+
+.d6:hover{
+	background-color:#2E2E2E ;
+}

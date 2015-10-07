@@ -1,34 +1,79 @@
 /* 
 ESTILOS
 */
+.bg {
+	background-image: url(http://38.media.tumblr.com/0b51e0bdfd016ab3f74005b18f48f98a/tumblr_ncp9ddNsy31r9zgu2o1_r1_500.gif);
+	background-color:black;
+	margin:0px;
+}
 
+#opa {
+	width: 100%;
+	height:100%;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-top {
+	width: 100%;
+	height: 100%;
+	/*background: url(#);*/
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: black;	
+}
 
 .main {
 	width: 100%;
 	height: 100%;
-	background-color: red;
-	background: url(http://www.nocturnar.com/imagenes/fondos-de-pantalla-de-flores-dibujo_de_unas_flores-normal.jpg);
+	/*background: url(#);*/
 	background-repeat: no-repeat;
 	background-position: center center;
+}
 
+.main2 {
+	width: 100%;
+	height: 100%;
+	/*background: url(#);*/
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: black;
+}
+
+.contain-top {
+	min-width: 360px;
+	max-width: 1000px;
+	min-height: 76px;
+	display: block;
+	margin: 0 auto;
+	/*background-color: blue;*/
 }
 
 .contain {
 	min-width: 360px;
 	max-width: 1000px;
-	min-height: 600px;
+	min-height: 400px;
 	display: block;
 	margin: 0 auto;
-	background-color: blue;
+	/*background-color: blue;*/
+}
+
+.contain2 {
+	min-width: 360px;
+	max-width: 1000px;
+	min-height: 300px;
+	max-height: 600px;	
+	display: block;
+	margin: 0 auto;
+	background-color: black;
 }
 
 .header {
 	width: 100%;
 	max-width:1000px;
 	min-width: 360px;
-	background-color: green;
+	/*background-color: green;*/
 	height: 100%;
-	min-height:100px;
+	min-height:75px;
 	max-height: 600px;
 	display: inline-block;
 }
@@ -36,11 +81,38 @@ ESTILOS
 .page {
 	position: relative;
 	width: 100%;
-	max-width:1000px;
-	min-width: 360px;	
-	background-color: yellow;
+	min-width: 360px;
 	padding-top: 5px;
-	height: 100%
+	height: 100%;
+	max-width: 1010px;
+	margin: 90px 25px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media  only screen and (max-width: 980px) and (min-width: 380px) {
+.page {
+	position: relative;
+	width: 100%;
+	min-width: 360px;
+	padding-top: 5px;
+	height: 100%;
+	max-width: 810px;
+	margin: 0px 0px;	
+	background-color: rgba(0, 0, 0, 0.4);
+	}
+}	
+
+@media  only screen and (max-width: 379px) and (min-width: 200px) {
+.page {
+	position: relative;
+	width: 100%;
+	min-width: 316px;
+	padding-top: 5px;
+	height: 100%;
+	max-width: 316px;
+	margin: 0px 0px;	
+	background-color: rgba(0, 0, 0, 0.4);
+	}
 }
 
 .footer {
@@ -48,4 +120,10 @@ ESTILOS
 	max-width:1000px;
 	min-width: 360px;	
 	background-color: pink;	
+}
+
+.back {
+	background-color: black;
+	color:white;
+	font-size: 18px;
 }
