@@ -1,0 +1,48 @@
+/* 
+HEADER
+*/
+.d1 {
+	width: 60%;
+	min-width: 360px;
+	max-width: 600px;
+	height: 100%;
+	min-height: 75px;
+	max-height: 95px;
+	float: left;
+	background-color: gray;
+}
+
+.d2 {
+	width: 10%;
+	min-width: 95px;
+	max-width: 100px;
+	height: 100%;
+	min-height:75px;
+	max-height:75px; 
+	float: left;
+	background-color: black;
+}
+
+.d3 {
+	width: 10%;
+	min-width: 95px;
+	max-width: 100px;
+	height: 100%;
+	min-height:75px;
+	max-height:75px; 
+	float: left;
+	background-color: black;
+}
+
+.d4 {
+	width: 15%;
+	max-width: 150px;
+	min-width: 150px;
+	height: 100%;
+	min-height: 75px;
+	max-height: 95px;
+	float: left;
+	background-color: white;
+}
+
+
